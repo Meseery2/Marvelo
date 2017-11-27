@@ -1,0 +1,6 @@
+framework module Pods_Marvelo {
+  umbrella header "Pods-Marvelo-umbrella.h"
+
+  export *
+  module * { export * }
+}

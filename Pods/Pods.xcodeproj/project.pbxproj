@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F619F8538D7E823585240690D94BDF /* Pods-Marvelo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC71D134CF41E642CD2C40C9A3B2399 /* Pods-Marvelo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FC3C499C1760365BDDCFC91CD9D6570 /* Pods-MarveloTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 205C87CE8324D13EC5CDD1014FC71BED /* Pods-MarveloTests-dummy.m */; };
+		624062575DD384D583DF83E76D62C788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		63A55D44A24C4F1EE75676E73E6244D3 /* Pods-Marvelo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87087720B54EC29CA41188DB15DFE19E /* Pods-Marvelo-dummy.m */; };
+		9848A1026AFF3333EAB825E381708A1D /* Pods-MarveloUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C74DF05B000BA28AB44BAE31D670A4FD /* Pods-MarveloUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6EDF86BEEA0AB9F9BC5C038AB16CD62 /* Pods-MarveloTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E49F6C1FA1BDA11BCE0D72AA7D00190A /* Pods-MarveloTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2B36CAB6DC501B24E9135B861664647 /* Pods-MarveloUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA79A107B49172E2D69963FBC49E440 /* Pods-MarveloUITests-dummy.m */; };
+		B396C0828BB814D33604C041E7FFA165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA9800CA997A9F8A6A639352C660A2D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05D3896B567FB1B9696E58C38F9A5466 /* Pods-MarveloTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarveloTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B7503E26E680E163578080D41043C1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF8669842E8ABFDB80634A02247C054 /* Pods-MarveloUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarveloUITests-frameworks.sh"; sourceTree = "<group>"; };
+		10F3E2467D8DD18FAB503D79D9798C17 /* Pods_Marvelo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Marvelo.framework; path = "Pods-Marvelo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BDDCF2E764102E154A6649AF6845DB6 /* Pods-MarveloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarveloTests.debug.xcconfig"; sourceTree = "<group>"; };
+		205C87CE8324D13EC5CDD1014FC71BED /* Pods-MarveloTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarveloTests-dummy.m"; sourceTree = "<group>"; };
+		26FCE739C2217EC91535E41E698B7147 /* Pods-Marvelo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Marvelo.debug.xcconfig"; sourceTree = "<group>"; };
+		2AC71D134CF41E642CD2C40C9A3B2399 /* Pods-Marvelo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Marvelo-umbrella.h"; sourceTree = "<group>"; };
+		2EAEA6F28058E642BFC34DB98EC3D9D4 /* Pods-Marvelo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marvelo-resources.sh"; sourceTree = "<group>"; };
+		2FFE3D573898E9EE0E8FCC5CE40420D5 /* Pods-MarveloUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarveloUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		32F2373904FBA0A1DF1FE274F0B656D3 /* Pods-Marvelo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Marvelo.release.xcconfig"; sourceTree = "<group>"; };
+		3730DD378466B42035DA697FF34A17BD /* Pods-MarveloTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarveloTests-resources.sh"; sourceTree = "<group>"; };
+		425E926502006E199A92FF66C850A491 /* Pods-MarveloUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarveloUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CA79A107B49172E2D69963FBC49E440 /* Pods-MarveloUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarveloUITests-dummy.m"; sourceTree = "<group>"; };
+		4D725DCD225D441FC527E9A3FA7662D4 /* Pods-MarveloTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MarveloTests.modulemap"; sourceTree = "<group>"; };
+		5E2EB5381259C92D1C1A9DCBC1C8C88E /* Pods_MarveloUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarveloUITests.framework; path = "Pods-MarveloUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE872ADC5DE9709C67B4278BA65825E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ACC7BC3EEC6955BECB2BA2548466C16 /* Pods-Marvelo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Marvelo-acknowledgements.plist"; sourceTree = "<group>"; };
+		77BC4D96F59E81EBE9EABFFEE8CFC79E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D56F96B4D4EDC69BD7A42DB8C6EB68A /* Pods-MarveloTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarveloTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87087720B54EC29CA41188DB15DFE19E /* Pods-Marvelo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Marvelo-dummy.m"; sourceTree = "<group>"; };
+		87C0D3427670992D8118FE2132B8D1C3 /* Pods-MarveloUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarveloUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F97912872F61DFAAE8CECD29DD8B26D /* Pods-Marvelo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Marvelo.modulemap"; sourceTree = "<group>"; };
+		91D2456E82797E8A748090143D699391 /* Pods-MarveloUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarveloUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C321FEEED6A856DD1FAED2126D56968C /* Pods-MarveloUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarveloUITests-resources.sh"; sourceTree = "<group>"; };
+		C74DF05B000BA28AB44BAE31D670A4FD /* Pods-MarveloUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarveloUITests-umbrella.h"; sourceTree = "<group>"; };
+		C84344262E932DDC9AEBCB9BC575BE38 /* Pods-MarveloTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarveloTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E28B6CD76326001666FA9C9A7B6E0598 /* Pods-MarveloUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MarveloUITests.modulemap"; sourceTree = "<group>"; };
+		E49F6C1FA1BDA11BCE0D72AA7D00190A /* Pods-MarveloTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarveloTests-umbrella.h"; sourceTree = "<group>"; };
+		ED06268AE625DB7CA2987AC5806C99A9 /* Pods_MarveloTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MarveloTests.framework; path = "Pods-MarveloTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8C57B9C75F5BB36DB5825CDCC4FF3B /* Pods-MarveloTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarveloTests-frameworks.sh"; sourceTree = "<group>"; };
+		FC0F676068974C0428BBF886E2B2C755 /* Pods-Marvelo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Marvelo-frameworks.sh"; sourceTree = "<group>"; };
+		FEC00575D20AE46FC0CB7D690558241C /* Pods-Marvelo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Marvelo-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FBD68C306A0BE04F430C86D00E906BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9800CA997A9F8A6A639352C660A2D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC710DE5F71E919422B1BAA8F03FD95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624062575DD384D583DF83E76D62C788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9ABA6556675C7D697811ACFD255E1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B396C0828BB814D33604C041E7FFA165 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D0E8A9A54E70270DD376784F753843 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC0CF0D5D6A5F9EE3DD5D6D935F877BC /* Pods-Marvelo */,
+				FB0DD72924724BCBA6DB8A8B76DF83E9 /* Pods-MarveloTests */,
+				7F27FB4639AD30CDF48AE1907E13E751 /* Pods-MarveloUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F3E2317C6A2CB706E6FDE25E6FFB0592 /* Products */,
+				69D0E8A9A54E70270DD376784F753843 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F27FB4639AD30CDF48AE1907E13E751 /* Pods-MarveloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EE872ADC5DE9709C67B4278BA65825E /* Info.plist */,
+				E28B6CD76326001666FA9C9A7B6E0598 /* Pods-MarveloUITests.modulemap */,
+				87C0D3427670992D8118FE2132B8D1C3 /* Pods-MarveloUITests-acknowledgements.markdown */,
+				91D2456E82797E8A748090143D699391 /* Pods-MarveloUITests-acknowledgements.plist */,
+				4CA79A107B49172E2D69963FBC49E440 /* Pods-MarveloUITests-dummy.m */,
+				0FF8669842E8ABFDB80634A02247C054 /* Pods-MarveloUITests-frameworks.sh */,
+				C321FEEED6A856DD1FAED2126D56968C /* Pods-MarveloUITests-resources.sh */,
+				C74DF05B000BA28AB44BAE31D670A4FD /* Pods-MarveloUITests-umbrella.h */,
+				2FFE3D573898E9EE0E8FCC5CE40420D5 /* Pods-MarveloUITests.debug.xcconfig */,
+				425E926502006E199A92FF66C850A491 /* Pods-MarveloUITests.release.xcconfig */,
+			);
+			name = "Pods-MarveloUITests";
+			path = "Target Support Files/Pods-MarveloUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC0CF0D5D6A5F9EE3DD5D6D935F877BC /* Pods-Marvelo */ = {
+			isa = PBXGroup;
+			children = (
+				77BC4D96F59E81EBE9EABFFEE8CFC79E /* Info.plist */,
+				8F97912872F61DFAAE8CECD29DD8B26D /* Pods-Marvelo.modulemap */,
+				FEC00575D20AE46FC0CB7D690558241C /* Pods-Marvelo-acknowledgements.markdown */,
+				6ACC7BC3EEC6955BECB2BA2548466C16 /* Pods-Marvelo-acknowledgements.plist */,
+				87087720B54EC29CA41188DB15DFE19E /* Pods-Marvelo-dummy.m */,
+				FC0F676068974C0428BBF886E2B2C755 /* Pods-Marvelo-frameworks.sh */,
+				2EAEA6F28058E642BFC34DB98EC3D9D4 /* Pods-Marvelo-resources.sh */,
+				2AC71D134CF41E642CD2C40C9A3B2399 /* Pods-Marvelo-umbrella.h */,
+				26FCE739C2217EC91535E41E698B7147 /* Pods-Marvelo.debug.xcconfig */,
+				32F2373904FBA0A1DF1FE274F0B656D3 /* Pods-Marvelo.release.xcconfig */,
+			);
+			name = "Pods-Marvelo";
+			path = "Target Support Files/Pods-Marvelo";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3E2317C6A2CB706E6FDE25E6FFB0592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F3E2467D8DD18FAB503D79D9798C17 /* Pods_Marvelo.framework */,
+				ED06268AE625DB7CA2987AC5806C99A9 /* Pods_MarveloTests.framework */,
+				5E2EB5381259C92D1C1A9DCBC1C8C88E /* Pods_MarveloUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB0DD72924724BCBA6DB8A8B76DF83E9 /* Pods-MarveloTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B7503E26E680E163578080D41043C1E /* Info.plist */,
+				4D725DCD225D441FC527E9A3FA7662D4 /* Pods-MarveloTests.modulemap */,
+				C84344262E932DDC9AEBCB9BC575BE38 /* Pods-MarveloTests-acknowledgements.markdown */,
+				7D56F96B4D4EDC69BD7A42DB8C6EB68A /* Pods-MarveloTests-acknowledgements.plist */,
+				205C87CE8324D13EC5CDD1014FC71BED /* Pods-MarveloTests-dummy.m */,
+				EF8C57B9C75F5BB36DB5825CDCC4FF3B /* Pods-MarveloTests-frameworks.sh */,
+				3730DD378466B42035DA697FF34A17BD /* Pods-MarveloTests-resources.sh */,
+				E49F6C1FA1BDA11BCE0D72AA7D00190A /* Pods-MarveloTests-umbrella.h */,
+				1BDDCF2E764102E154A6649AF6845DB6 /* Pods-MarveloTests.debug.xcconfig */,
+				05D3896B567FB1B9696E58C38F9A5466 /* Pods-MarveloTests.release.xcconfig */,
+			);
+			name = "Pods-MarveloTests";
+			path = "Target Support Files/Pods-MarveloTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D751024BEC108C4844D47E550D40A8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9848A1026AFF3333EAB825E381708A1D /* Pods-MarveloUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96D679C9FE56EFF2C08AC513759157D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EDF86BEEA0AB9F9BC5C038AB16CD62 /* Pods-MarveloTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB05110C92A2DF1B27B3BE7D4195EFCB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F619F8538D7E823585240690D94BDF /* Pods-Marvelo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BC1F8780B5362C150A0AE8DF74D25BF /* Pods-Marvelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4672E32EBDAF19E4586223A445C7D5 /* Build configuration list for PBXNativeTarget "Pods-Marvelo" */;
+			buildPhases = (
+				A083E19B95DCBF224311298C46321049 /* Sources */,
+				7FBD68C306A0BE04F430C86D00E906BE /* Frameworks */,
+				BB05110C92A2DF1B27B3BE7D4195EFCB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Marvelo";
+			productName = "Pods-Marvelo";
+			productReference = 10F3E2467D8DD18FAB503D79D9798C17 /* Pods_Marvelo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4B1C418445340C81B8075CDD1DA2BF3 /* Pods-MarveloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101A776D6699E828D1A88F3C20C2C630 /* Build configuration list for PBXNativeTarget "Pods-MarveloUITests" */;
+			buildPhases = (
+				5C01436E03EE60C1203BC3F103B1CB5A /* Sources */,
+				DCC710DE5F71E919422B1BAA8F03FD95 /* Frameworks */,
+				8D751024BEC108C4844D47E550D40A8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MarveloUITests";
+			productName = "Pods-MarveloUITests";
+			productReference = 5E2EB5381259C92D1C1A9DCBC1C8C88E /* Pods_MarveloUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8A30A6D297FB5E620CDFDFE2B69EE55 /* Pods-MarveloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABE65773C4C56FB7A02BFD4C56D0968 /* Build configuration list for PBXNativeTarget "Pods-MarveloTests" */;
+			buildPhases = (
+				0728E87E424BC95C02339CB938F2F950 /* Sources */,
+				E9ABA6556675C7D697811ACFD255E1C5 /* Frameworks */,
+				96D679C9FE56EFF2C08AC513759157D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MarveloTests";
+			productName = "Pods-MarveloTests";
+			productReference = ED06268AE625DB7CA2987AC5806C99A9 /* Pods_MarveloTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F3E2317C6A2CB706E6FDE25E6FFB0592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BC1F8780B5362C150A0AE8DF74D25BF /* Pods-Marvelo */,
+				B8A30A6D297FB5E620CDFDFE2B69EE55 /* Pods-MarveloTests */,
+				A4B1C418445340C81B8075CDD1DA2BF3 /* Pods-MarveloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0728E87E424BC95C02339CB938F2F950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC3C499C1760365BDDCFC91CD9D6570 /* Pods-MarveloTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C01436E03EE60C1203BC3F103B1CB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B36CAB6DC501B24E9135B861664647 /* Pods-MarveloUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A083E19B95DCBF224311298C46321049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A55D44A24C4F1EE75676E73E6244D3 /* Pods-Marvelo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		531249970963C44F0BEBB63678233EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F2373904FBA0A1DF1FE274F0B656D3 /* Pods-Marvelo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Marvelo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marvelo/Pods-Marvelo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Marvelo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		771D34CF89C35635D9CF46F40D31AA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FCE739C2217EC91535E41E698B7147 /* Pods-Marvelo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Marvelo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Marvelo/Pods-Marvelo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Marvelo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81D813E75CADBC2BC484C242AE622C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D3896B567FB1B9696E58C38F9A5466 /* Pods-MarveloTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarveloTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarveloTests/Pods-MarveloTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarveloTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B180900F700BB8999426EEC09C39A261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425E926502006E199A92FF66C850A491 /* Pods-MarveloUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarveloUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarveloUITests/Pods-MarveloUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarveloUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DCC5542942BCE5520F6778266A044628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFE3D573898E9EE0E8FCC5CE40420D5 /* Pods-MarveloUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarveloUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarveloUITests/Pods-MarveloUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarveloUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA910C675AC90E608B82C2640460FAB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BDDCF2E764102E154A6649AF6845DB6 /* Pods-MarveloTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MarveloTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MarveloTests/Pods-MarveloTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MarveloTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ABE65773C4C56FB7A02BFD4C56D0968 /* Build configuration list for PBXNativeTarget "Pods-MarveloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA910C675AC90E608B82C2640460FAB7 /* Debug */,
+				81D813E75CADBC2BC484C242AE622C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101A776D6699E828D1A88F3C20C2C630 /* Build configuration list for PBXNativeTarget "Pods-MarveloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC5542942BCE5520F6778266A044628 /* Debug */,
+				B180900F700BB8999426EEC09C39A261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A4672E32EBDAF19E4586223A445C7D5 /* Build configuration list for PBXNativeTarget "Pods-Marvelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771D34CF89C35635D9CF46F40D31AA83 /* Debug */,
+				531249970963C44F0BEBB63678233EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

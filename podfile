@@ -1,0 +1,17 @@
+platform :ios, "9.0"
+use_frameworks!
+
+target 'Marvelo' do
+
+
+end
+
+
+
+target 'MarveloTests' do
+
+end
+
+target 'MarveloUITests' do
+
+end
