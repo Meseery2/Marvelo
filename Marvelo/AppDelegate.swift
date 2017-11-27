@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().tintColor = UIColor.red
+        UINavigationBar.appearance().isTranslucent = false
+        
+        setup()
+        
         return true
     }
 
@@ -39,8 +45,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        
+        Utilities.fileStorage.removeDirectoryContent(path: FileStorageUtilities.storageBasePath)
     }
-
 
 }
 
+
+extension AppDelegate {
+    func setup()  {
+        let navigationViewController = UINavigationController(rootViewController: UIStoryboard.charactersIndexViewController())
+        navigationViewController.navigationBar.barStyle = .black
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController =  navigationViewController
+        window?.makeKeyAndVisible()
+        
+        let splashViewController = UIStoryboard.splashViewController()
+        
+        window?.addSubview(splashViewController.view)
+        DispatchQueue.main.asyncAfter(deadline: .now() + .milliseconds(3000)) {
+            splashViewController.view.removeFromSuperview()
+        }
+
+    }
+    
+}
