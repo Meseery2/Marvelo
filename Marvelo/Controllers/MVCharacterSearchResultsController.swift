@@ -33,7 +33,7 @@ class MVCharactersSearchResultsController: MVBaseContainerViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.isNavigationBarHidden = true
+        self.navigationController?.hidesBarsWhenKeyboardAppears = true
         self.delegate?.changeSearchBarVisibility(visible: true)
     }
     

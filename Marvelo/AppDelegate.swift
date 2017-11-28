@@ -15,13 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-        UINavigationBar.appearance().tintColor = UIColor.red
-        UINavigationBar.appearance().isTranslucent = false
-        
         setup()
-        
         return true
     }
 
@@ -54,6 +48,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 extension AppDelegate {
     func setup()  {
+        
+        UINavigationBar.appearance().tintColor = UIColor.red
+        UINavigationBar.appearance().isTranslucent = false
+        UIApplication.shared.statusBarStyle = .lightContent
+        
+        
         let navigationViewController = UINavigationController(rootViewController: UIStoryboard.charactersIndexViewController())
         navigationViewController.navigationBar.barStyle = .black
         

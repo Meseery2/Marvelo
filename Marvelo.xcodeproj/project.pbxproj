@@ -169,9 +169,9 @@
 				A27A953B1FCB8C60008D0473 /* Main controllers */,
 				A27A95341FCB837E008D0473 /* Base */,
 				A27A95401FCB8F59008D0473 /* MVSplashViewController.swift */,
+				A27A95461FCB9181008D0473 /* MVCharactersIndexViewController.swift */,
 				A27A95421FCB8FB9008D0473 /* MVDetailsTableViewController.swift */,
 				A27A95441FCB9158008D0473 /* MVCollectionContainerViewController.swift */,
-				A27A95461FCB9181008D0473 /* MVCharactersIndexViewController.swift */,
 				A27A95481FCB9733008D0473 /* MVCharacterSearchResultsController.swift */,
 			);
 			path = Controllers;

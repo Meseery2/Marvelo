@@ -14,6 +14,7 @@ class MVRequest{
     typealias CompletionHandlerCharacters = (_ ok: Bool, _ objects: [MVCharacter]?, _ error: Error?) -> Void
     typealias CompletionHandlerComics = (_ ok: Bool, _ objects: [MVComic]?, _ error: Error?) -> Void
     
+    
     private let privateKey: String
     private let publicKey: String
     private let baseUrl: String

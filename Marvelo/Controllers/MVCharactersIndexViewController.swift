@@ -14,7 +14,7 @@ class MVCharactersIndexViewController: MVBaseContainerViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.hidesBarsOnSwipe = false
     }
     
     override func viewDidLoad() {

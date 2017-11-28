@@ -37,7 +37,7 @@ class MVPictureCollectionViewController: UICollectionViewController {
         
         if enableCloseButton {
             // st up back button
-            let closeButton = UIButton(frame: CGRect.init(x:self.view.frame.width - 50,y: 0,width: 50,height: 50))
+            let closeButton = UIButton(frame: CGRect.init(x:self.view.frame.width - 50,y: 0,width: 30,height: 30))
             closeButton.setBackgroundImage(UIImage(named: "ImageClose"), for: UIControlState.normal)
             closeButton.addTarget(self, action: #selector(handleCloseButton(recognizer:)), for: .touchUpInside)
             self.view.addSubview(closeButton)
@@ -64,7 +64,6 @@ class MVPictureCollectionViewController: UICollectionViewController {
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-
         return 1
     }
     

@@ -75,6 +75,23 @@ class MVDetailsTableViewController: UITableViewController {
         }
     }
     
+    @IBOutlet weak var seriessContainer: UIView!{
+        didSet {
+            if self.character != nil{
+                let vc = UIStoryboard.pictureCollectionViewController(character: self.character!)
+                
+                self.addChildViewController(vc)
+                
+                vc.view.frame = CGRect.init(x:0,y:0, width:comicsContainer.frame.size.width, height:comicsContainer.frame.size.height)
+                comicsContainer.addSubview(vc.view)
+                vc.didMove(toParentViewController: self)
+                vc.collectionView!.delegate = self
+            }
+        }
+    }
+    
+    /// YOU can replicate other same UI secions
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
@@ -104,12 +121,29 @@ class MVDetailsTableViewController: UITableViewController {
         }
     }
     
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if indexPath.section == 3 {
+            switch indexPath.row {
+            case 0:
+                cell.textLabel?.text = "Details"
+            case 1:
+                cell.textLabel?.text = "Wiki"
+            case 2:
+                cell.textLabel?.text = "ComicLink"
+            default:
+                break
+            }
+            cell.textLabel?.textColor = UIColor.white
+        }
+    }
+    
     override func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
 
         if let header: UITableViewHeaderFooterView = view as? UITableViewHeaderFooterView{
             header.textLabel?.textColor = UIColor.red
         }
     }
+
 }
 
 extension MVDetailsTableViewController: UICollectionViewDelegateFlowLayout, UICollectionViewDelegate{
